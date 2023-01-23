@@ -1,0 +1,17 @@
+body{
+    background-color: #b6ac99;
+    padding: 50%;
+}
+
+p{
+    text-align: justify;
+}
+
+figure img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure figcaption{
+    margin-bottom: 10px;
+}
