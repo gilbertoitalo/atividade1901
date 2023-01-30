@@ -1,6 +1,24 @@
 body{
-    background-color: #b6ac99;
-    padding: 50%;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-style: normal;
+    padding: 10px;
+  }
+h2,h3,h4{
+    
+        border-bottom: #000000;
+        border-width: 1.5px;
+        border-style: solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+
 }
 
 p{
@@ -8,10 +26,33 @@ p{
 }
 
 figure img{
-    margin-top: 10px;
-    margin-bottom: 10px;
+  display: block;
+  float: center;
+  background-color: whitesmoke;
+  width: 550px;
+  padding: 15px;
+  margin: 30px;
+  margin-left: 15px;
 }
 
 figure figcaption{
-    margin-bottom: 10px;
+  display: block;
+  float: right;
+  background-color: whitesmoke;
+  width: 275px;
+  padding: 15px;
+  margin: 30px;
+}
+#imagelegend {
+    position: flex;
+    left: 360px;
+    width: 55px;
+    float: left;
+    padding: 10px;
+    border-radius: 50%;
+  }
+font {
+    color: lightgrey;
+    padding: 10x 10px 10px 0;
+    text-align: center;
 }
